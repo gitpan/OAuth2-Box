@@ -23,4 +23,4 @@ requires:
   URI: 0
 resources:
   homepage: http://github.com/reneeb/OAuth2-Box
-version: 0.01
+version: 0.02
