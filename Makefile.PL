@@ -20,17 +20,17 @@ my %WriteMakefileArgs = (
   "LICENSE" => "artistic_2",
   "NAME" => "OAuth2::Box",
   "PREREQ_PM" => {
-    "Carp::Assert" => 0,
-    "HTTP::Tiny" => 0,
-    "JSON" => 0,
-    "Moo" => 0,
-    "Test::Exception" => 0,
-    "Test::More" => 0,
-    "Type::Tiny" => 0,
-    "URI" => 0
+    "Carp::Assert" => "0.20",
+    "HTTP::Tiny" => "0.034",
+    "JSON" => "2.53",
+    "Moo" => "1.003001",
+    "Test::Exception" => "0.32",
+    "Test::More" => "0.98",
+    "Type::Tiny" => "0.026",
+    "URI" => "1.59"
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -13,14 +13,16 @@ meta-spec:
   version: 1.4
 name: OAuth2-Box
 requires:
-  Carp::Assert: 0
-  HTTP::Tiny: 0
-  JSON: 0
-  Moo: 0
-  Test::Exception: 0
-  Test::More: 0
-  Type::Tiny: 0
-  URI: 0
+  Carp::Assert: 0.20
+  HTTP::Tiny: 0.034
+  JSON: 2.53
+  Moo: 1.003001
+  Test::Exception: 0.32
+  Test::More: 0.98
+  Type::Tiny: 0.026
+  URI: 1.59
 resources:
+  bugtracker: http://github.com/reneeb/OAuth2-Box/issues
   homepage: http://github.com/reneeb/OAuth2-Box
-version: 0.02
+  repository: git://github.com/reneeb/OAuth2-Box.git
+version: 0.03
